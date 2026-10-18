@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build 8051 (SDCC)",
+      "type": "process",
+      "command": "C:\\Program Files\\SDCC\\bin\\sdcc.exe",
+      "args": ["-mmcs51", "-o", "build/weather_8051.hex", "weather_8051.c"],
+      "options": { "cwd": "${workspaceFolder}/8051" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}

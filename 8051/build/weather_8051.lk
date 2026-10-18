@@ -1,0 +1,17 @@
+-muwx
+-i build/weather_8051.hex
+-M
+-b HOME = 0x0000
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k C:\Program Files\SDCC\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+build/weather_8051.rel
+
+-e

@@ -1,0 +1,16 @@
+# PlatformIO build output
+.pio/
+
+# VS Code: keep only the 8051 build task
+.vscode/*
+!.vscode/tasks.json
+
+# 8051 build output: keep only the final HEX file
+8051/build/*
+!8051/build/weather_8051.hex
+!8051/build/.keep
+
+# Proteus backups
+Project Backups/
+*.pdsbak
+*.workspace
